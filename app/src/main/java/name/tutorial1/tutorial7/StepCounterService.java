@@ -100,8 +100,8 @@ public class StepCounterService extends Service  implements com.example.pedomete
     }
 
     private Notification getNotification(){
-        Intent notifactinoIntent = new Intent(this, MainActivity.class);
-        PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, notifactinoIntent, 0);
+        Intent notificationIntent = new Intent(this, MainActivity.class);
+        PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, notificationIntent, 0);
         if(Build.VERSION.SDK_INT < 26){
             return new Notification();
         }

@@ -34,7 +34,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:text="Start Pedometer"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            android:onClick="startPedometerClick"/>
 
         <Button
             android:id="@+id/stopP"
@@ -42,7 +43,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:text="Stop Pedometer"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            android:onClick="stopPedometerClick"/>
 
         <TextView
             android:id="@+id/pSTextView"
